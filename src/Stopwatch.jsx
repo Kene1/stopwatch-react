@@ -46,20 +46,22 @@ export default function Stopwatch() {
   }
 
   return (
-    <div className="stopwatch">
+    <>
       <h1>Stopwatch</h1>
-      <div className="display">{displayTime()}</div>
-      <div className="controls">
-        <button onClick={start} className="start-button">
-          Start
-        </button>
-        <button onClick={stop} className="stop-button">
-          Stop
-        </button>{" "}
-        <button onClick={reset} className="reset-button">
-          Reset
-        </button>
+      <div className="stopwatch">
+        <div className="display">{displayTime()}</div>
+        <div className="controls">
+          <button onClick={start} className="start-button">
+            Start
+          </button>
+          <button onClick={stop} className="stop-button">
+            Stop
+          </button>{" "}
+          <button onClick={reset} className="reset-button">
+            Reset
+          </button>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
