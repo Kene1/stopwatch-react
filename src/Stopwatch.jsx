@@ -47,7 +47,8 @@ export default function Stopwatch() {
 
   return (
     <div className="stopwatch">
-      b<div className="display">{displayTime()}</div>
+      <h1>Stopwatch</h1>
+      <div className="display">{displayTime()}</div>
       <div className="controls">
         <button onClick={start} className="start-button">
           Start
@@ -55,7 +56,6 @@ export default function Stopwatch() {
         <button onClick={stop} className="stop-button">
           Stop
         </button>{" "}
-        j   
         <button onClick={reset} className="reset-button">
           Reset
         </button>
