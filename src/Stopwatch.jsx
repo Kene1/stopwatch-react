@@ -56,7 +56,7 @@ export default function Stopwatch() {
           </button>
           <button onClick={stop} className="stop-button">
             Stop
-          </button>{" "}
+          </button>
           <button onClick={reset} className="reset-button">
             Reset
           </button>
